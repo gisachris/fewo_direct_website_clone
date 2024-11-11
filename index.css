@@ -34,7 +34,8 @@
         justify-content: center;
         align-items: center;
         background-color: white;
-        padding: 10px;
+        padding: 15px;
+        /* border: 2px solid red; */
     }
     
     .header {
@@ -42,20 +43,19 @@
         height: 50px;
         display: flex;
         justify-content: space-between;
-        margin-top: 15px;
     }
     
     /* .header .logo {} */
     
     .header .menu {
         display: flex;
-        column-gap: 20px;
+        column-gap: 30px;
     }
     
     .header .menu a {
-        font-weight: 500;
+        font-weight: 400;
         color: black;
-        font-size: 1rem;
+        font-size: 0.89rem;
     }
 
     .download_button_header{
@@ -69,6 +69,80 @@
 
     .download_button_header svg{
         width: 15px;
+    }
+
+    .landing_area_container {
+        background-image: url('./public/images/landing_bg.png');
+        background-size: cover;
+        width: 100%;
+        height: auto;
+        margin: auto 0;
+        /* border: 2px black solid; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 100px;
+        padding-bottom: 90px;
+    }
+
+    .landing_text {
+        display: block;
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px red solid; */
+        flex-wrap: wrap;
+        margin-left: 25px;
+        margin: 25px;
+    }
+
+    .landing_text p {
+        width: fit-content;
+        font-weight: 500;
+        color: white;
+        font-size: 3.7rem;
+    }
+
+    .landing_qs {
+        align-self: center;
+        width: 90%;
+        display: flex;
+        column-gap: 20px;
+        justify-content: center;
+        align-items: center;
+        background-color: #f7f7f7;
+        border-radius: 10px;
+        margin-bottom: 50px;
+        padding: 10px;
+    }
+
+    .qn{
+        padding: 15px 30px 15px 0px;
+        border-radius: 7px;
+        background-color: #ffffff;
+        border: 1.5px solid black;
+        display: flex;
+        align-items: center;
+    }
+
+    .qn p{
+        font-weight: 400;
+        margin-right: 100px;
+    }
+
+    .qn svg{
+        width: 30px;
+    }
+
+    .landing_qs button {
+        background-color: #1a1e3b;
+        border-radius: 25px;
+        color: white;
+        font-weight: 500;
+        font-size: 1.1rem;
+        border: 0;
+        padding: 17px;
     }
 }
 
