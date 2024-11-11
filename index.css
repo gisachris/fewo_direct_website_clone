@@ -148,6 +148,63 @@
         padding: 17px;
         cursor: grab;
     }
+
+    /* ---DESTINATION SECTION--- */
+
+    .destination_section{
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .destinationAd{
+        width: 45%;
+        min-width: fit-content;
+        background-color: #191e3b;
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin: 0 auto;
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+
+    .destinationAd .text{
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+    }
+
+    .destinationAd .text .lg_holder {
+        width: fit-content;
+        background-color: #add1f3;
+        border-radius: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .destinationAd .text .lg_holder svg {
+        width: 20px;
+    }
+
+    .destinationAd .text .text {
+        font-weight: 400;
+        color: white;
+    }
+
+
+    .destinationAd .button button{
+        color: white;
+        font-weight: 500;
+        border: 0;
+        background-color: transparent;
+        margin-right: 15px;
+    }
 }
 
 @media screen and (max-width: 1920px) {
@@ -222,6 +279,7 @@
     }
 
     .landing_area_container {
+        position: relative;
         background-image: url('./public/images/landing_bg.png');
         background-size: cover;
         background-position: center;
@@ -234,9 +292,22 @@
         align-items: center;
         padding-top: 100px;
         padding-bottom: 90px;
+        z-index: 0;
+        overflow: hidden;
+    }
+
+    .landing_area_shadow {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.2);
     }
 
     .landing_text {
+        position: relative;
         display: block;
         width: fit-content;
         display: flex;
@@ -246,16 +317,18 @@
         flex-wrap: wrap;
         margin-left: 25px;
         margin: 25px;
+        z-index: 2;
     }
 
     .landing_text p {
         width: 95%;
         font-weight: 500;
-        color: white;
+        color: rgb(255, 255, 255);
         font-size: 3.5rem;
     }
 
     .landing_qs {
+        position: relative;
         align-self: center;
         width: fit-content;
         display: flex;
@@ -266,6 +339,7 @@
         border-radius: 10px;
         margin-bottom: 100px;
         padding: 10px;
+        z-index: 2;
     }
 
     .qn{
@@ -296,6 +370,62 @@
         border: 0;
         padding: 17px;
         cursor: grab;
+    }
+
+    /* ---DESTINATION SECTION--- */
+
+    .destination_section{
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .destinationAd{
+        width: 75%;
+        background-color: #191e3b;
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin: 0 auto;
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+
+    .destinationAd .text{
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+    }
+
+    .destinationAd .text .lg_holder {
+        width: fit-content;
+        background-color: #add1f3;
+        border-radius: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .destinationAd .text .lg_holder svg {
+        width: 20px;
+    }
+
+    .destinationAd .text .text {
+        font-weight: 400;
+        color: white;
+    }
+
+
+    .destinationAd .button button{
+        color: white;
+        font-weight: 500;
+        border: 0;
+        background-color: transparent;
+        margin-right: 15px;
     }
 }
 
