@@ -209,7 +209,7 @@
 
 @media screen and (max-width: 1920px) {
     * {
-        margin: auto 0;
+        /* margin: auto 0; */
         padding: 0;
         font-family: "Roboto", sans-serif;
         font-weight: 100;
@@ -426,6 +426,75 @@
         border: 0;
         background-color: transparent;
         margin-right: 15px;
+        margin-bottom: 10px;
+    }
+
+    /* ---DESTINATIONS--- */
+
+    /* ---FOOTER--- */
+    .footer {
+        width: 100%;
+        height: fit-content;
+        background-color: #f1f1f1;
+    }
+
+    .footer .logo {
+        width: 100%;
+        display: block;
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+
+    .footer .logo img {
+        width: 150px;
+        margin-bottom: 20px;
+    }
+
+    .points {
+        margin: 0 auto;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .points .pointSection {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        margin-bottom: 30px;
+    }
+
+    .points .pointSection strong {
+        font-weight: 500;
+        
+    }
+
+    .points .pointSection a {
+        color: #0766d3;
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+
+    .points .pointSection a:hover {
+        text-decoration: underline;
+    }
+
+    .copyright {
+        margin: 0 auto;
+        border: 0;
+        border-top: 1px solid #bebebe;
+        width: fit-content;
+        padding: 10px 35px;
+        margin-bottom: 60px;
+    }
+
+    .copyright p {
+        margin-top: 15px;
+        font-size: 0.8rem;
+        letter-spacing: 1.2px;
+        text-align: center;
+        font-weight: 400;
     }
 }
 
