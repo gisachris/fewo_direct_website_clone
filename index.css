@@ -188,10 +188,11 @@
     }
     
     .header {
-        width: 90%;
+        width: fit-content;
         height: 50px;
         display: flex;
         justify-content: space-between;
+        column-gap: 100px;
     }
     
     /* .header .logo {} */
@@ -296,4 +297,8 @@
         cursor: grab;
     }
 }
+
+@media screen and (max-width: 1280px)  and (min-width: 640px){}
+
+@media screen and (max-width: 640px) {}
 
