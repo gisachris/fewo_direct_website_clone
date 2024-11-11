@@ -224,6 +224,7 @@
     .landing_area_container {
         background-image: url('./public/images/landing_bg.png');
         background-size: cover;
+        background-position: center;
         width: 100%;
         height: auto;
         margin: auto 0;
@@ -248,10 +249,10 @@
     }
 
     .landing_text p {
-        width: fit-content;
+        width: 95%;
         font-weight: 500;
         color: white;
-        font-size: 3.7rem;
+        font-size: 3.5rem;
     }
 
     .landing_qs {
@@ -263,7 +264,7 @@
         align-items: center;
         background-color: #f7f7f7;
         border-radius: 10px;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
         padding: 10px;
     }
 
