@@ -331,6 +331,33 @@
         transform: translateY(-50%);
     }
 
+    /* ---ACCOMODATION DESTINATION--- */
+    .acc_destination {
+        width: 100%;
+        position: relative;
+    }
+
+    .acc_destination .acc_destinations_container {
+        display: flex;
+        column-gap: 10px;
+        margin-top: 15px;
+        position: relative;
+        /* padding-left: 10px; */
+        width: fit-content;
+        display: flex;
+        align-items: center;
+    }
+
+    .acc_destination .acc_destination_card {
+        width: 20%;
+        height: 300px;
+    }
+
+    .acc_destination .acc_destination_card .text {
+        background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0));
+        color: white;
+    }
+
     /* ---FOOTER--- */
     .footer {
         width: 100%;
